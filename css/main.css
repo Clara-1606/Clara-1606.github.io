@@ -1,0 +1,153 @@
+/*Body*/
+
+body{
+    padding-bottom : 0;
+    padding-top:70px; 
+}
+
+h1, h2{
+    color : #804EE9;
+}
+
+.pagination>li.active>a{
+    background-color: #804EE9 !important;
+}
+
+.pagination>li>a{
+    color : black !important;
+}
+
+.btn-primary{
+    background-color :#804EE9;
+    border-color: #804EE9 ; 
+}
+
+.btn-primary:hover{
+    background-color: black;
+    border-color: #804EE9 ;
+}
+
+/*Menu */
+.navbar {
+    background-color: black !important;
+}
+
+a:hover { 
+    color: #804EE9 !important; 
+}
+
+.drapeau {
+    width: 25px;
+}
+@media only screen and (max-width: 685px) {
+    .drapeau {
+    width: 10px;
+    }
+    }
+
+.langue{
+    z-index: 1000;
+}
+
+/*Carousel */
+.carousel-caption {
+    top:50%;
+    transform: translateY(-50%);
+    bottom:initial;
+    color : #804EE9;
+    background-color: white;
+    width: 25%;
+    left : 38%;
+}
+
+/* Si on utilise un petit écran (que ce soit avec un ordinateur dans une petite fenêtre ou avec un smartphone), les titres sont réduits */
+@media only screen and (max-width: 895px) {
+    .competence {
+    font-size: 1em !important;
+    }
+    }
+
+/*Description*/
+
+@media only screen and (max-width: 685px) {
+    .moi {
+    display:none;
+    }
+    }
+
+.jumbotron {
+    text-align: center
+}
+
+.logo_competence{
+    width: 20%;
+    margin: 2%;
+}
+
+.bouton_projet {
+    width: 20%;
+    font-size: 1.5em;
+    border-color: #804EE9 ;
+}
+
+.rond{
+    background-color:#804EE9 ;
+    border-radius: 50%;
+    width:60px;
+    height:60px;
+    color : white;
+
+}
+.centrer{
+    margin:0;
+    margin-top: 17px;
+}
+
+.centrer2{
+    margin-top: 5px;
+}
+
+
+/*Footer*/
+
+.footer{
+    background-color: #804EE9 !important;
+}
+
+.logo{
+    width: 25px;
+}
+
+@media only screen and (max-width: 685px) {
+    .logo {
+    width: 10px;
+    }
+    }
+
+
+.bouton_contact{
+    width: 100%;
+    font-size : 1.5em;
+    background-color: white;
+    color : #804EE9 !important;
+    border-color: white;
+}
+
+.bouton_contact:hover{
+    color : white !important;
+    background-color: black;
+    border-color: black;
+}
+
+/*Projet */
+
+.banniere{
+    width: 55%;
+}
+
+/*Blog*/
+
+.banniere_petite {
+    width: 45%;
+}
+
