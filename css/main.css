@@ -37,11 +37,11 @@ a:hover {
 }
 
 .drapeau {
-    width: 25px;
+    width: 30px;
 }
 @media only screen and (max-width: 685px) {
     .drapeau {
-    width: 10px;
+        width: 25px;
     }
     }
 
@@ -68,12 +68,20 @@ a:hover {
     }
 
 /*Description*/
+@media (max-width: 895px) {
+    .img-fluid {
+        width : 150px;
+    } 
+}
 
-@media only screen and (max-width: 685px) {
-    .moi {
-    display:none;
+@media (max-width: 480px) {
+    .carousel-caption {
+        width: 40%;
+        left : 30%;
+        padding-top : 10px;
+        padding-bottom : 5px;
     }
-    }
+  }
 
 .jumbotron {
     text-align: center
@@ -85,7 +93,6 @@ a:hover {
 }
 
 .bouton_projet {
-    width: 20%;
     font-size: 1.5em;
     border-color: #804EE9 ;
 }
@@ -106,7 +113,11 @@ a:hover {
 .centrer2{
     margin-top: 5px;
 }
-
+@media (max-width: 895px) {
+    .centrer3{
+        margin-top: 15px;
+    }
+}
 
 /*Footer*/
 
@@ -118,11 +129,25 @@ a:hover {
     width: 25px;
 }
 
-@media only screen and (max-width: 685px) {
-    .logo {
-    width: 10px;
+.btnFooter{
+    padding-left: 48%;
+  }
+  @media (max-width: 990px) {
+    .btnFooter{
+      padding-left: 46%;
     }
+  }
+  @media (max-width: 480px) {
+    .btnFooter{
+      flex-direction: column;
+      padding: 0;
+      margin : 0;
     }
+    .logo_centrer{
+        padding-bottom : 10px;
+    }
+  }
+
 
 
 .bouton_contact{
@@ -149,5 +174,39 @@ a:hover {
 
 .banniere_petite {
     width: 45%;
+}
+
+.card {
+    margin-bottom : 20px;
+}
+
+article {
+    margin : 35px;
+}
+
+.imageDesktop {
+    width: 100%;
+}
+
+.imageMobile {
+    width: 259px;
+}
+
+.projetDesktop{
+    margin-bottom : 50px;
+}
+
+.titreDesktop{
+    margin-bottom : 16px;
+}
+
+/*Contact*/
+
+.contourForm {
+    border: solid;
+    border-style: outset;
+    /* margin-bottom: 20px; */
+    padding: 20px;
+    padding-bottom: 5px;
 }
 

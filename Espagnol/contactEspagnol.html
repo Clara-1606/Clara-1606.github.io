@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="Página de contacto de la desarrolladora Clara Vesval">
@@ -42,7 +42,7 @@
        <section class="row my-4">
           <!--Begin Breadcrumb-->
           <nav class="col-12">
-          <div class="col-2 text-right offset-10 position-fixed langue">
+          <div class="col-md-2 text-right offset-md-10 col-3 offset-9 position-fixed langue">
                 <a href="../contact.html"><img class="drapeau" src="../images/france.png" alt="bandera francesa"/></a> 
                 <a href="contactEspagnol.html"><img class="drapeau" src="../images/espagne.png" alt="bandera española"/></a>
           </div>
@@ -54,27 +54,27 @@
           <!--End Breadcrumb .col-12-->
 
           </section>
-          <div class="col-12 col-md-6 offset-md-3">
-              <form method="post" action="../php/mail.php">
+          <div class="col-12 col-md-6 offset-md-3 contourForm">
+            <form method="post" action="https://formspree.io/f/xayaogvw">
                  <h2 class="text-center">Formulario de contacto</h2>
                  <br/>
                  <fieldset>
                     <legend>Información personal</legend>
                      <!--FirstName field-->
                       <div class="form-group">
-                          <label for="prenom" >Vuestro nombre</label>
-                          <input type="text" required class="form-control" name="prenom" id="prenom" placeholder="Vuestro nombre" />
+                          <label for="prenom" >Tu nombre</label>
+                          <input type="text" required class="form-control" name="prenom" id="prenom" placeholder="nombre" />
                       </div>
                       <!--End FirstName field-->
                       <!--LastName field-->
                       <div class="form-group">
-                          <label for="nom">Vuestro apellido</label>
-                          <input type="text" required class="form-control" name="nom" id="nom" placeholder="Tu apellido" />
+                          <label for="nom">Tu apellido</label>
+                          <input type="text" required class="form-control" name="nom" id="nom" placeholder="apellido" />
                       </div>
                       <!--End LastName field-->
                       <!--email field-->
                       <div class="form-group">
-                          <label for="email" >Vuestro correo electrónico</label>
+                          <label for="email" >Tu correo electrónico</label>
                           <input type="mail" required class="form-control" name="email" id="email" placeholder="Tu correo electrónico" />
                       </div>
                       <!--End email field-->
@@ -85,19 +85,20 @@
                         <label for="objet">Objeto del mensaje </label>
                         <input type="text" class="form-control" name="objet" id="objet" placeholder="Objeto del mensaje" />
                     </div>
-                     <legend>Vuestro mensaje</legend>
+                     <legend>Tu mensaje</legend>
                      <!--Message-->
                      <div class="form-group">
-                         <label for="message">Vuestro mensaje</label>
+                         <label for="message">Tu mensaje</label>
                          <textarea required name="message" id="message" rows="5" class="form-control"></textarea>
                      </div>
                      <!--End Message-->
                  </fieldset>
                  <!--Submit-->
+                 <br/>
                  <div class="text-center">
                      <button type="submit" class="btn btn-primary center-block ">Enviar !</button>
                     </div>
-                 
+                    <br/>
               </form>
           </div><!--End Second Column (Contact Form)-->
        </section><!--End section.row first row-->
@@ -107,18 +108,18 @@
 <footer class="bg-dark text-light py-4 footer">
     <div class="container-fluid">
          <h2 class="text-light text-center"> Seguirme</h2>
-         <div class="row">
-             <div class=" col-2 offset-5 logo_centrer text-center">
+         <div class="row d-flex col-12 justify-content-between align-items-center btnFooter">
+                <div class="logo_centrer text-center">
                  <a target="_blank" href="mailto:clara.vesval@ynov.com"><img src="../images/mail.png" alt="correo" class="logo"></a>
                  <a target="_blank" href="https://gitlab.com/Clara1606"> <img src="../images/gitlab_blanc.png" alt="GitLab" class=" logo"> </a>
                  <a target="_blank" href="https://www.linkedin.com/in/clara-vesval-84b911193/"> <img src="../images/linkedin.png" alt="Linkedin" class=" logo"> </a>
              </div>
-             <div class="col-lg-2 offset-lg-3 col-md-3 offset-md-2 col-4 offset-1">
-                 <a class="btn text-light btn-primary bouton_contact" href="contactEspagnol.html"> Contactarme </a>
+             <div class="">
+                    <a class="btn text-light btn-primary bouton_contact" href="contactEspagnol.html"> Contactarme </a>
              </div>
          </div>
              <div class="col-12 d-flex justify-content-center small">
-                 <p class="mb-0">&copy; Copyright Clara Vesval 2020 todos los derechos reservados.</p>
+                 <p class="mb-0 mt-2 text-center">&copy; Copyright Clara Vesval 2021 todos los derechos reservados.</p>
              </div>
      </div><!--End container-fluid in footer-->
 </footer><!--end of main Footer-->
