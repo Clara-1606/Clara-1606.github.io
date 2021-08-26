@@ -170,6 +170,18 @@ a:hover {
     width: 55%;
 }
 
+.imageBlog{
+    width: 500px;
+}
+
+.imageBlogLaravel{
+    width: 350px;
+}
+
+.imageBlogVoyage{
+    width: 400px;
+}
+
 /*Blog*/
 
 .banniere_petite {
